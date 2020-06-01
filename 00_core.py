@@ -65,3 +65,28 @@ def power(x, y):
     """
     return x ** y
 
+# %%
+#export
+
+def sin(x):
+    """ Computes the sin(x)
+
+    >>> import math
+    >>> sin(30 * math.pi / 180)
+    0.5
+    """
+    import math
+    return math.sin(x)
+
+
+# %%
+#export
+
+def cos(q):
+    """ Computes the cos(x)
+    """
+    import math
+    return math.cos(q)
+
+
+# %%

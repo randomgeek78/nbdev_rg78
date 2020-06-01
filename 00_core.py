@@ -49,4 +49,19 @@ def triple(x):
     """
     return x * 3
 
+
 # %%
+double(3) + triple(4)
+
+
+# %%
+#export
+
+def power(x, y):
+    """ Raises x ** y
+    
+    > power(2, 3)
+    8
+    """
+    return x ** y
+

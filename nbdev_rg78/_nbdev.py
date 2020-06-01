@@ -2,9 +2,10 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {}
+index = {"double": "00_core.ipynb",
+         "triple": "00_core.ipynb"}
 
-modules = []
+modules = ["core.py"]
 
 doc_url = "https://randomgeek78.github.io/nbdev_rg78/"
 
